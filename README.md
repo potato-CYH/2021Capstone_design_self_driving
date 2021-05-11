@@ -5,6 +5,9 @@
 
 # 작동 환경
 > HW : Jetson Nano Board
+
 > SW : Ubuntu(Linux)
+
 > Python & OpenCV installation required 
+
 > (python version upper 3.7 and openCV version upper 4.0)
