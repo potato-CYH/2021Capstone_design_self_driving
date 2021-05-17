@@ -198,8 +198,8 @@ def draw_lane_line(original_src, wrapped_src, minv, draw_info):
     cv2.fillPoly(color_wrap, np.int_([pts]), (255, 0, 0))
     cv2.fillPoly(color_wrap, np.int_([pts_mean]), (255, 0, 0))
     cv2.line(color_wrap, (np.int_(first_point_x), np.int_(first_point_y)),(np.int_(last_point_x), np.int_(last_point_y)) ,(0, 255,0),4)
-    #cv2.line(color_wrap, (np.int_(criteria_first_point_x),np.int_(criteria_first_point_y)),(np.int_(criteria_last_point_x),np.int_(criteria_last_point_y)),(0, 0, 255), 4)
-    cv2.putText(original_src, "curv = "+str(2*theta), (np.int_((original_src.shape[1])*(1/2)), np.int_(original_src.shape[0]-20)), cv2.FONT_HERSHEY_SIMPLEX, 0.7,(255,255,255), 2, cv2.LINE_AA)
+    cv2.line(color_wrap, (np.int_(criteria_first_point_x),np.int_(criteria_first_point_y)),(np.int_(criteria_last_point_x),np.int_(criteria_last_point_y)),(0, 0, 255), 4)
+    cv2.putText(original_src, "curv = "+str(2*theta), (np.int_((original_src.shape[1])*(1/2)), np.int_(original_src.shape[0])), cv2.FONT_HERSHEY_SIMPLEX, 0.7,(255,255,255), 2, cv2.LINE_AA)
     newwarp = cv2.warpPerspective((color_wrap), minv, (original_src.shape[1], original_src.shape[0]))
     result = cv2.addWeighted((original_src), 1, newwarp, 0.5, 0)
     
