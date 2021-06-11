@@ -1,12 +1,12 @@
 # Introduction
 
-> -과목 : 캡스턴디자인 2021-1학기
-> -팀원 : 차영후, 김대원, 김정태
-> -진행기간 : 20201.03.02 ~ 2021. 06. 11(**실제작기간 : 21. 05. 17 ~ 06. 04 - 약 3주**)
-> -**주제 : ML 기반 포장도로 자율주행 및 비포장도로 자율주행** 
-> -HW플랫폼 : Jetson Nano Board + AI car Robot Kit
-> -프로그래밍 언어 : **python**
-> -SW제작 플랫폼 :  VS Code, Jupyter Notebook
+-과목 : 캡스턴디자인 2021-1학기
+-팀원 : 차영후, 김대원, 김정태
+-진행기간 : 20201.03.02 ~ 2021. 06. 11(**실제작기간 : 21. 05. 17 ~ 06. 04 - 약 3주**)
+-**주제 : ML 기반 포장도로 자율주행 및 비포장도로 자율주행** 
+-HW플랫폼 : Jetson Nano Board + AI car Robot Kit
+-프로그래밍 언어 : **python**
+-SW제작 플랫폼 :  VS Code, Jupyter Notebook
 
 # Installation
 **1.**  사전에 진행해야 할 항목들(Checklist)
